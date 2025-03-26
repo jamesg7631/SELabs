@@ -7,7 +7,8 @@ public class DataCoupling {
     Sum mySum = new Sum();
 
     public void firstCaller() {
-        printer.print(new Number1(numberA, numberB, numberC), allNumbersSet);
+        printer.print(numberA, numberB);
+        printer.print(numberC, allNumbersSet);
     }
 
     public void secondCaller() {

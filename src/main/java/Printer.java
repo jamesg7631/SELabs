@@ -6,6 +6,16 @@ public class Printer {
         System.out.println("All numbers set? " + allNumbersSet);
     }
 
+    public void print(int numberA, int numberB) {
+        System.out.println("Number A: " + numberA);
+        System.out.println("Number B: " + numberB);
+    }
+
+    public void print(int numberC, boolean allNumbersSet) {
+        System.out.println("Number C: " + numberC);
+        System.out.println("All numbers set? " + allNumbersSet);
+    }
+
     public void print(Number1 number, boolean allNumberSet) {
         System.out.println("Number A: " + number.getNumberA());
         System.out.println("Number B: " + number.getNumberB());
